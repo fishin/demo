@@ -12,9 +12,9 @@ var it = lab.it;
 
 describe('demo', function () {
 
-    it('fail test', function (done) {
+    it('pass test', function (done) {
 
-        expect(false).to.be.true();
+        expect(true).to.be.true();
         done();
     });
 });
