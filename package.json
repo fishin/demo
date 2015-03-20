@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "lab -a code -v -m 2000",
-    "json": "lab -a code -r json -o lab.json -m 2000"
+    "json": "lab -a code -r json -t 100 -o lab.json -m 2000"
   },
   "devDependencies": {
     "code": "1.x.x",
