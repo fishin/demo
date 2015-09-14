@@ -14,7 +14,7 @@ describe('demo', function () {
 
     it('pass test', function (done) {
 
-        expect(true).to.be.true();
+        expect(true).to.be.false();
         done();
     });
 });
